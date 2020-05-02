@@ -7,7 +7,9 @@
 */
 /* M2LO15 */
 html{
-  background-color: steelblue;
+  /*M2LO14 progressive enhancement */
+  background-color: rgb (70, 130, 180);
+  background-color: hsl(226, 56%, 56%);
 }
 body{
   background-color: white;
@@ -16,7 +18,9 @@ body{
 }
 header{
   background-color:white;
+/*M2LO12*/
   text-align: center;
+  /*M2LO13*/
   font-size: larger; 
 /* M2LO3 style precedence and inheritance and M2LO5 Demonstrate contextual selectors (wildcard) */
   p * {color: black;}
