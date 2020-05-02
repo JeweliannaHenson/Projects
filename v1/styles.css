@@ -11,9 +11,12 @@ html{
 body{
   background-color: ivory;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
 }
 header{
   background-color:mintcream;
+  text-align: center;
+  font-size: larger; 
 }
 p{
   margin: 0px;
@@ -22,4 +25,22 @@ p{
 body > p {
   text-align: center;
   font-size: 1.1em;
+}
+/* Navigation List Styles */
+nav {
+	display: table;
+	width: 100%;
+}
+
+nav > ul {
+	display: table-row;
+}
+
+nav > ul > li {
+	display: table-cell;
+	text-align: center;
+}
+
+nav > ul > li > a {
+	display: block;
 }
