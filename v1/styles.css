@@ -9,24 +9,22 @@
 html{
   /*M2LO14 progressive enhancement */
   background-color: rgb (70, 130, 180);
-  background-color: hsl(226, 56%, 56%);
-  border-bottom: hsl(226, 56%, 56%);
-  border-left: gray;
-  border-right: gray;
+  background-color: darkcyan;
 }
 body{
-  background-color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: honeydew;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: medium;
 }
 header{
-  background-color:white;
+  background-color:darkcyan;
 /*M2LO12*/
   text-align: center;
   /*M2LO13*/
   font-size: larger; 
 /* M2LO3 style precedence and inheritance and M2LO5 Demonstrate contextual selectors (wildcard) */
   padding: background-image ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
 }
 p{
@@ -37,7 +35,7 @@ body > p {
   text-align: center;
   font-size: 1.1em;
 /*M2LO5 Demonstrate contextual selectors*/ 
-  header: 1; color: blue;
+  header: 1; color:darkcyan;
 }
 /* Navigation List Styles */
 nav {
