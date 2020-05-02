@@ -6,15 +6,15 @@
    Filename: styles.css
 */
 html{
-  background-color: lavenderblush;
+  background-color: steelblue;
 }
 body{
-  background-color: ivory;
+  background-color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: medium;
 }
 header{
-  background-color:mintcream;
+  background-color:white;
   text-align: center;
   font-size: larger; 
 }
