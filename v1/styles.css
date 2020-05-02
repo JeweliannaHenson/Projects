@@ -29,6 +29,6 @@ nav a{
     background-color:brown;
   }
   nav a:hover, nav a:active{
-    color: white;
+    color:brown;
     background-color:brown;
   }
