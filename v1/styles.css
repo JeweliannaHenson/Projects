@@ -3,7 +3,7 @@ html{
     background-color: hsla(59, 21%, 61%, 0.562);
     }
   body{
-    background-color: hsl(60, 4%, 70%);
+    background-color:brown);
    
       }
   header{
@@ -21,14 +21,14 @@ html{
 nav a{
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
      }
   nav a:link, nav:visited{
     color: white;
     text-decoration: none;
-    background-color: whitesmoke;
+    background-color:brown;
   }
   nav a:hover, nav a:active{
-    color: hsla(0, 0%, 42%, 0.7);
-    background-color: hsla(0, 40%, 64%, 0.7);
+    color: white;
+    background-color:brown;
   }
