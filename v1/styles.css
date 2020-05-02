@@ -1,0 +1,18 @@
+/* Structural Styles */
+html{
+    background-color: hsl(90, 1%, 36%);
+  }
+  body{
+    background-color: hsl(60, 4%, 70%);
+   
+  }
+  header{
+    background-color: black;
+  }
+  p{
+    margin: 0px;
+    padding: 5px 25px 25px 25px;
+  }
+  body > p {
+    text-align: center;
+    font-size: 1.1em;
