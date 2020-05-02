@@ -44,3 +44,16 @@ nav > ul > li {
 nav > ul > li > a {
 	display: block;
 }
+/* Section Styles */
+
+section {
+	clear: right;
+}
+
+/* Definition List Styles */
+
+dl {
+	float: right;
+	width: 40%;
+	margin: 0 0 0 4%;
+}
