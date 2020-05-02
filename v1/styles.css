@@ -10,8 +10,16 @@ html{
 }
 body{
   background-color: ivory;
-  font-family: monospace;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header{
   background-color:mintcream;
+}
+p{
+  margin: 0px;
+  padding: 5px 25px 25px 25px;
+}
+body > p {
+  text-align: center;
+  font-size: 1.1em;
 }
