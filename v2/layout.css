@@ -11,6 +11,68 @@ clear: both;
 content: "";
 display: table;
 }
-body{
+html{
+    background-color: rgb (70, 130, 180);
     background: linear-gradient(to bottom darkcyan cadetblue paleturquoise);
+  }
+  body{
+      text-align: center;
+      background-color: honeydew;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: medium;
+      /*M4LO3 Demonstrate the use of rounded corners for borders*/
+      border-radius: 20px;
+  }
+  header{
+      text-align: center;
+      background-color:darkcyan;
+      font-size: larger; 
+      padding: background-image ;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  p{
+    margin: 0em;
+    padding: 5px 25px 25px 25px;
+  }
+  body > p {
+    text-align: left;
+    font-size: 1.1em;
+    header: 1; color:darkcyan;
+  }
+  /* Navigation List Styles */
+  nav {
+    display: table;
+    width: 100%;
+    text-align: center;
+  }
+  
+  nav > ul {
+    display: table-row;
+    text-align: center;
+  }
+  
+  nav > ul > li {
+      display: table-cell;
+      text-align: center;
+  }
+  
+  nav > ul > li > a {
+    display: block;
+    text-align: center;  
+  }
+  
+  header > ol > li > a {
+    text-align: center;
+  }
+  /* Section Styles */
+  
+  section {
+      clear: right;
+  }
+  address{
+      text-align: center;
+  }
+footer {
+    text-align: right;
 }
