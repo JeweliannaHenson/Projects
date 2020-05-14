@@ -15,6 +15,7 @@ html{
     font-size: medium;
   }
   header{
+    
     background-color:darkcyan;
     text-align: center;
     font-size: larger; 
@@ -72,3 +73,9 @@ html{
   address{
     text-align: center;
   }
+  
+footer {
+/* M3LO2 Demonstrate floating elements */
+width: 20%;
+}
+
