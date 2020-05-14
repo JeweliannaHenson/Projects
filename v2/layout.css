@@ -17,7 +17,7 @@ html{
   }
   header{
       text-align: center;
-      background-color:darkcyan;
+      background: linear-gradient(to bottom darkcyan cadetblue paleturquoise);
       font-size: larger; 
       padding: background-image ;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
