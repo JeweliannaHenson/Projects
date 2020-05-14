@@ -22,15 +22,11 @@ html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
   }
-  aside {
-	position: relative;
-	display: block;
-}
+  aside img{
+      float: right;
+  }
 
-aside img {
-	display: block;
-	width: 100%;
-}
+
   p{
     margin: 0em;
     padding: 5px 25px 25px 25px;
@@ -39,7 +35,7 @@ aside img {
     text-align: center;
     font-size: 1.1em;
     header: 1; color:darkcyan;
-  }
+
   /* Navigation List Styles */
   nav {
     display: table;
