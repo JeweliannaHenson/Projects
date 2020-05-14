@@ -13,10 +13,10 @@ html{
     font-size: medium;
   }
   header{
-      /*M3LO8A Demonstrate absolute positioning*/
+      /*M3LO8A Demonstrate absolute positioning
       position: absolute;
       top: 550px;
-      right: 25px;
+      right: 25px; */
     background-color:darkcyan;
     font-size: larger; 
     padding: background-image ;
