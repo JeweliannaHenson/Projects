@@ -24,6 +24,7 @@ html{
   }
   aside img{
       float: right;
+      clear: right;
   }
   p{
     margin: 0em;
