@@ -12,6 +12,7 @@ html{
       background-color: honeydew;
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-size: medium;
+      border-radius: 20px;
   }
   header{
       text-align: center;
@@ -75,6 +76,7 @@ footer {
     text-align: right;
 }
 /*figure box*/
+/*M4LO1 Demonstrate the use of figure boxes*/
 figure{
     margin: 20px auto 0px;
     width: 25%;
@@ -82,10 +84,8 @@ figure{
 figure img {
     display: block;
     width: 300;
-    height: 300;
-    
+    height: 300;  
 }
-/*M4LO1 Demonstrate the use of figure boxes*/
 figure figcaption {
     background-color: darkcyan;
     font-family: Georgia, 'Times New Roman', Times, serif;
