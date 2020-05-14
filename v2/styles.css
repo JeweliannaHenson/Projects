@@ -74,4 +74,20 @@ html{
 footer {
     text-align: right;
 }
-
+/*figure box*/
+figure{
+    margin: 20px auto 0px;
+    width: 80%;
+}
+figure img {
+    display: block;
+    width: 100%;
+}
+/*M4LO1 Demonstrate the use of figure boxes*/
+figure figcaption {
+    background-color: darkcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    padding: 10px 0;
+    text-align: center;
+}

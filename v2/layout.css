@@ -5,6 +5,7 @@
 */
 
 /*grid row styles*/
+/*M3LO6 Demonstrate formatting a grid*/
 div.row::after{
 clear: both;
 content: "";
