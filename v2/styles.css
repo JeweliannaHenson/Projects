@@ -77,12 +77,13 @@ footer {
 /*figure box*/
 figure{
     margin: 20px auto 0px;
+    width: auto;
 }
 figure img {
     display: block;
     width: 300;
     height: 300;
-    text-align: center;
+    
 }
 /*M4LO1 Demonstrate the use of figure boxes*/
 figure figcaption {
