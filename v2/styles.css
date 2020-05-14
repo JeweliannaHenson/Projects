@@ -12,6 +12,7 @@ html{
       background-color: honeydew;
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-size: medium;
+      /*M4LO3 Demonstrate the use of rounded corners for borders*/
       border-radius: 20px;
   }
   header{

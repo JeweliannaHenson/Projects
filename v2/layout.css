@@ -11,3 +11,6 @@ clear: both;
 content: "";
 display: table;
 }
+body{
+    background: linear-gradient(to bottom darkcyan cadetblue paleturquoise);
+}
