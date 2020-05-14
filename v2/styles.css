@@ -13,8 +13,10 @@ html{
     font-size: medium;
   }
   header{
+      position: absolute;
+      top: 550px;
+      right: 25px;
     background-color:darkcyan;
-    text-align: center;
     font-size: larger; 
     padding: background-image ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
