@@ -37,6 +37,7 @@ html{
     display: table;
     width: 100%;
     text-align: center;
+    text-emphasis-color: black;
   }
   
   nav > ul {
@@ -64,7 +65,6 @@ html{
   }
   
   /* Definition List Styles */
-  
   dl {
       float: right;
       width: 40%;
@@ -76,6 +76,6 @@ html{
 
 footer {
 /* M3LO2 Demonstrate floating elements */
-text-align: right;
+text-align: center;
 }
 
