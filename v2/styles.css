@@ -1,0 +1,74 @@
+/*
+   Style Sheet (M1LO8)
+   Author: Jewelianna Henson
+   Date: 05.01.20 
+   
+   Filename: styles.css
+*/
+html{
+    background-color: rgb (70, 130, 180);
+    background-color: darkcyan;
+  }
+  body{
+    background-color: honeydew;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+  header{
+    background-color:darkcyan;
+    text-align: center;
+    font-size: larger; 
+    padding: background-image ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  p{
+    margin: 0em;
+    padding: 5px 25px 25px 25px;
+  }
+  body > p {
+    text-align: center;
+    font-size: 1.1em;
+    header: 1; color:darkcyan;
+  }
+  /* Navigation List Styles */
+  nav {
+    display: table;
+    width: 100%;
+    text-align: center;
+  }
+  
+  nav > ul {
+    display: table-row;
+    text-align: center;
+  }
+  
+  nav > ul > li {
+      display: table-cell;
+      text-align: center;
+  }
+  
+  nav > ul > li > a {
+    display: block;
+    text-align: center;
+  }
+  
+  header > ol > li > a {
+    text-align: center;
+  }
+  /* Section Styles */
+  
+  section {
+      clear: right;
+  }
+  
+  /* Definition List Styles */
+  
+  dl {
+      float: right;
+      width: 40%;
+      margin: 0 0 0 4%;
+  }
+  address{
+    text-align: center;
+  }
