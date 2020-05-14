@@ -3,21 +3,13 @@
    Date: 05.01.20 
    Filename: layout.css
 */
-
-/*grid row styles*/
-/*M3LO6 Demonstrate formatting a grid*/
-div.row::after{
-clear: both;
-content: "";
-display: table;
-}
 html{
     background-color: rgb (70, 130, 180);
     background: linear-gradient(to bottom darkcyan cadetblue paleturquoise);
   }
   body{
       text-align: center;
-      background-color: honeydew;
+      background: linear-gradient(to bottom darkcyan cadetblue paleturquoise);
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-size: medium;
       /*M4LO3 Demonstrate the use of rounded corners for borders*/
@@ -70,9 +62,43 @@ html{
   section {
       clear: right;
   }
+  
+  /* Definition List Styles */
+  dl {
+      /*M3LO2 Demonstrate Floating Elements*/
+      float: right;
+      width: 40%;
+      margin: 0 0 0 4%;
+  }
   address{
       text-align: center;
   }
 footer {
     text-align: right;
 }
+/*figure box*/
+/*M4LO1 Demonstrate the use of figure boxes*/
+figure{
+    margin: 20px auto 0px;
+    width: 25%;
+}
+figure img {
+    display: block;
+    width: 300;
+    height: 300;  
+}
+figure figcaption {
+    background-color: darkcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    padding: 10px 0;
+    text-align: center;
+}
+/*grid row styles*/
+/*M3LO6 Demonstrate formatting a grid*/
+div.row::after{
+clear: both;
+content: "";
+display: table;
+}
+
