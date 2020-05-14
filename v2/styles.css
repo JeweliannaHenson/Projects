@@ -77,7 +77,7 @@ footer {
 /*figure box*/
 figure{
     margin: 20px auto 0px;
-    width: auto;
+    width: 50%;
 }
 figure img {
     display: block;
