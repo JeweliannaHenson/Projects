@@ -2,6 +2,7 @@
    Author: Jewelianna Henson
    Date: 05.01.20 
    Filename: styles.css
+   M3LO1 Demonstrate the use of a CSS reset style sheet
 */
 html{
     background-color: rgb (70, 130, 180);
@@ -75,6 +76,7 @@ html{
   }
 footer {
     text-align: right;
+    /*M4LO5 Demonstrate the use of text shadowing*/
     text-shadow: darkslategray 4px 6px 5px;
 }
 /*figure box*/
