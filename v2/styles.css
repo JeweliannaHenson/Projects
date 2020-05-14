@@ -37,25 +37,21 @@ html{
     display: table;
     width: 100%;
     text-align: center;
-    text-emphasis-color: black;
   }
   
   nav > ul {
     display: table-row;
     text-align: center;
-    text-emphasis-color: black;
   }
   
   nav > ul > li {
       display: table-cell;
       text-align: center;
-      text-emphasis-color: black;
   }
   
   nav > ul > li > a {
     display: block;
-    text-align: center;
-    text-emphasis-color: black;
+    text-align: center;  
   }
   
   header > ol > li > a {
@@ -79,6 +75,6 @@ html{
 
 footer {
 /* M3LO2 Demonstrate floating elements */
-text-align: center;
+text-align: right;
 }
 
