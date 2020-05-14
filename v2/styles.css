@@ -13,10 +13,8 @@ html{
     font-size: medium;
   }
   header{
-      /*M3LO8A Demonstrate absolute positioning
-      position: absolute;
-      top: 550px;
-      right: 25px; */
+      /*M3LO8A Demonstrate absolute positioning*/
+    text-align: center;
     background-color:darkcyan;
     font-size: larger; 
     padding: background-image ;
@@ -65,6 +63,7 @@ html{
   
   /* Definition List Styles */
   dl {
+      /*M3LO2 Demonstrate Floating Elements*/
       float: right;
       width: 40%;
       margin: 0 0 0 4%;
@@ -73,7 +72,8 @@ html{
       text-align: center;
   }
 footer {
-/* M3LO2 Demonstrate floating elements */
-text-align: right;
+    position: absolute;
+    top: 550px;
+    right: 25px;
 }
 
