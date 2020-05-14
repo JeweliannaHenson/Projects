@@ -70,10 +70,8 @@ html{
       margin: 0 0 0 4%;
   }
   address{
-    position: relative;
-    bottom: 400px;
-    right: 25px;
-
+      text-align: center;
+  }
 footer {
 /* M3LO2 Demonstrate floating elements */
 text-align: right;
