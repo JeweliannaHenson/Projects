@@ -22,10 +22,6 @@ html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
   }
-  aside img{
-      float: right;
-      clear: none;
-  }
   p{
     margin: 0em;
     padding: 5px 25px 25px 25px;
