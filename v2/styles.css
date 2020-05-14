@@ -79,9 +79,10 @@ figure{
     margin: 20px auto 0px;
 }
 figure img {
-    display: table;
+    display: block;
     width: 300;
     height: 300;
+    text-align: center;
 }
 /*M4LO1 Demonstrate the use of figure boxes*/
 figure figcaption {
