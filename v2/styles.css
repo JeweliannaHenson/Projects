@@ -79,7 +79,7 @@ figure{
     margin: 20px auto 0px;
 }
 figure img {
-    display: block;
+    display: table;
     width: 300;
     height: 300;
 }
