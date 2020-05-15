@@ -98,9 +98,8 @@ figure figcaption {
     text-align: center;
 }
 aside img {
+  /*M3LO2 Demonstrate floating elements 
+    M3LO3 Demonstrate a clearing floats*/
   clear: left;
   float: left;
 }
-.clearfix {
-    overflow: auto;
-  }
