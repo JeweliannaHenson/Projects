@@ -101,6 +101,6 @@ aside img {
   clear: left;
   float: left;
 }
-aside img > .clearfix {
+.clearfix {
     overflow: auto;
-}
+  }
