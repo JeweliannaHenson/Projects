@@ -102,5 +102,5 @@ aside img {
     M3LO3 Demonstrate a clearing floats*/
   clear: left;
   float: left;
-  overflow: auto;
+  overflow: hidden;
 }
