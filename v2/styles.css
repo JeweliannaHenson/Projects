@@ -31,7 +31,7 @@ html{
   body > p {
     text-align: left;
     font-size: 1.1em;
-    header: 1; color:darkcyan;
+    text-decoration: black;
   }
   /* Navigation List Styles */
   nav {
@@ -102,5 +102,4 @@ aside img {
     M3LO3 Demonstrate a clearing floats*/
   clear: left;
   float: left;
-  overflow-x: auto;
 }
