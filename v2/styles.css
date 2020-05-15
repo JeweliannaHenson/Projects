@@ -98,5 +98,6 @@ figure figcaption {
     text-align: center;
 }
 aside img {
+  clear: left;
   float: left;
 }
