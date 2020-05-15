@@ -5,7 +5,7 @@
 */
 html{
   background-color: rgb (70, 130, 180);
-  background-image: linear-gradient(to bottom right, red, yellow);
+  background-image: linear-gradient(to bottom right, darkcyan, MediumTurquoise, paleturquoise);
   }
   body{
       text-align: center;
