@@ -3,9 +3,14 @@
    Date: 05.01.20 
    Filename: layout.css
 */
+#grad {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+/*
 html{
     background: linear-gradient(to bottom darkcyan cadetblue paleturquoise);
   }
+  */
   body{
       text-align: center;
       background: linear-gradient(to bottom darkcyan cadetblue paleturquoise);
