@@ -5,6 +5,7 @@
 */
 html{
   background-color: rgb (70, 130, 180);
+  /*M4LO4 Demonstrate the use of gradients (CSS)*/
   background-image: linear-gradient(to bottom right, darkcyan, MediumTurquoise, paleturquoise);
   }
   body{
@@ -17,7 +18,6 @@ html{
   }
   header{
       text-align: center;
-      background: linear-gradient(to bottom darkcyan cadetblue paleturquoise);
       font-size: larger; 
       padding: background-image ;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
