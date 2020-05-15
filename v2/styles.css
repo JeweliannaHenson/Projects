@@ -99,4 +99,5 @@ figure figcaption {
 }
 aside > img {
   float: right;
+  clear: right;
 }
