@@ -97,8 +97,7 @@ figure figcaption {
     padding: 10px 0;
     text-align: center;
 }
-aside > img > .clearfix {
+aside > img > {
   float: right;
   clear: both;
-  overflow: auto;
 }
