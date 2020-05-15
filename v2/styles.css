@@ -99,6 +99,6 @@ figure figcaption {
 }
 aside > img > .clearfix {
   float: right;
-  clear: right;
+  clear: both;
   overflow: auto;
 }
