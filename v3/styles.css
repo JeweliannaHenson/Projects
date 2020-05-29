@@ -107,4 +107,8 @@ article {
     flex: 180px;
   }
 /* Mobile Devices: 0 - 480 pixels */
+@media only screen and (max-width: 480px) {
+    img.panel {
+      width: 100%;
+    }
 /* Tablet and Desktop Devices: Greater than 480 pixels */
