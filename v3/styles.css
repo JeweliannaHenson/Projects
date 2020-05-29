@@ -102,12 +102,5 @@ aside img {
   float: left;
 }
 /* Flex Layout Styles */
-body {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-  }
-  /* Mobile Devices: 0 - 480 pixels */
-  
-  /* Tablet and Desktop Devices: Greater than 480 pixels */
+/* Mobile Devices: 0 - 480 pixels */
+/* Tablet and Desktop Devices: Greater than 480 pixels */
