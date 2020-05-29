@@ -129,3 +129,8 @@ article {
       flex-flow: row;
       height: 40px;
     }
+    nav.horizontal li {
+        -webkit-flex: auto;
+        flex: auto;
+      }
+    }    
