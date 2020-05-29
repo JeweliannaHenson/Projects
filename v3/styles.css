@@ -97,5 +97,10 @@ aside img {
   float: left;
 }
 /* Flex Layout Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
 /* Mobile Devices: 0 - 480 pixels */
 /* Tablet and Desktop Devices: Greater than 480 pixels */
