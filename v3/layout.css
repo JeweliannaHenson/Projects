@@ -1,11 +1,10 @@
 /*
    Author: Jewelianna Henson
-   Date: 05.01.20 
+   Date: 05.28.20 
    Filename: layout.css
 */
 html{
     background-color: rgb (70, 130, 180);
-    /*M4LO4 Demonstrate the use of gradients (CSS)*/
     background-image: linear-gradient(to bottom right, darkcyan, MediumTurquoise, paleturquoise);
     }
     body{
@@ -13,7 +12,6 @@ html{
         background: linear-gradient(to bottom darkcyan cadetblue paleturquoise);
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: medium;
-        /*M4LO3 Demonstrate the use of rounded corners for borders*/
         border-radius: 20px;
     }
     header{
@@ -65,7 +63,6 @@ html{
     
     /* Definition List Styles */
     dl {
-        /*M3LO2 Demonstrate Floating Elements*/
         float: right;
         width: 40%;
         margin: 0 0 0 4%;
@@ -77,7 +74,6 @@ html{
       text-align: right;
   }
   /*figure box*/
-  /*M4LO1 Demonstrate the use of figure boxes*/
   figure{
       margin: 20px auto 0px;
       width: 25%;
@@ -95,9 +91,27 @@ html{
       text-align: center;
   }
   /*grid row styles*/
-  /*M3LO6 Demonstrate formatting a grid*/
   div.row::after{
   clear: both;
   content: "";
   display: table;
   }
+  /*Table Styles*/
+ table {
+     background-color: paleturquoise;
+     border: 2px solid darkcyan;
+ }
+ th, td {
+    border: 2px solid darkcyan;
+    line-height: 1em;
+    padding: 5px;
+  }
+  th {
+    background: darkcyan;
+    font-weight: normal;
+  }
+  td {
+    color: white;
+    font-size: 1em;
+    vertical-align: top;
+  }  
