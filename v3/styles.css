@@ -115,4 +115,9 @@ article {
         -webkit-order: 99;
         order: 99;
       }
+      body>footer {
+        -webkit-order: 100;
+        order: 100;
+      }
+    }
 /* Tablet and Desktop Devices: Greater than 480 pixels */
