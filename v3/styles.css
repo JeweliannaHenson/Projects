@@ -102,5 +102,9 @@ body {
     flex-direction: column;
     flex-wrap: wrap-reverse;
 }
+article {
+    -webkit-flex: 180px; 
+    flex: 180px;
+  }
 /* Mobile Devices: 0 - 480 pixels */
 /* Tablet and Desktop Devices: Greater than 480 pixels */
