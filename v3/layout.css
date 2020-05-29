@@ -97,10 +97,10 @@ html{
   display: table;
   }
   /*Table Styles*/
+  /*M6LO7 Demonstrate how to format a table with CSS*/
  table {
      background-color: paleturquoise;
      border: 2px solid darkcyan;
-     text-align: center;
  }
  th, td {
     border: 2px solid darkcyan;
