@@ -100,6 +100,7 @@ html{
  table {
      background-color: paleturquoise;
      border: 2px solid darkcyan;
+     text-align: center;
  }
  th, td {
     border: 2px solid darkcyan;
@@ -111,7 +112,7 @@ html{
     font-weight: normal;
   }
   td {
-    color: white;
+    color: black;
     font-size: 1em;
     vertical-align: top;
   }  
