@@ -102,6 +102,9 @@ aside img {
   float: left;
 }
 /* Flex Layout Styles */
+head {
+    text-align: center;
+}
 body {
     display: -webkit-flex;
     display: flex;
