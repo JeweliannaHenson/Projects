@@ -1,6 +1,6 @@
 /*
    Author: Jewelianna Henson
-   Date: 05.28.20 
+   Date: 06.15.20 
    Filename: layout.css
 */
 html{
@@ -97,7 +97,6 @@ html{
   display: table;
   }
   /*Table Styles*/
-  /*M6LO7 Demonstrate how to format a table with CSS*/
  table {
      background-color: paleturquoise;
      border: 2px solid darkcyan;
@@ -116,3 +115,10 @@ html{
     font-size: 1em;
     vertical-align: top;
   } 
+  div{
+      text-align: right;
+  }
+  table{
+      text-align: center;
+  }
+
