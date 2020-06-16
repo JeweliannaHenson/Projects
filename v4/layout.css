@@ -117,6 +117,7 @@ html{
   } 
   div{
       text-align: center;
+      text-decoration: solid;
   }
   table{
       text-align: center;
