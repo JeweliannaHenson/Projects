@@ -1,0 +1,139 @@
+/*
+   Author: Jewelianna Henson
+   Date: 05.28.20 
+   Filename: styles.css
+*/
+html{
+    background-color: rgb (70, 130, 180);
+    background-color: darkcyan;
+  }
+  body{
+      text-align: center;
+      background-color: honeydew;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: medium;
+      border-radius: 20px;
+  }
+  header{
+      text-align: center;
+      background-color:darkcyan;
+      font-size: larger; 
+      padding: background-image ;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  p{
+    margin: 0em;
+    padding: 5px 25px 25px 25px;
+  }
+  body > p {
+    text-align: left;
+    font-size: 1.1em;
+    text-decoration: black;
+  }
+  /* Navigation List Styles */
+  nav {
+    display: table;
+    width: 100%;
+    text-align: center;
+    text-decoration: black;
+  }
+  
+  nav > ul {
+    display: table-row;
+    text-align: center;
+    text-decoration: black;
+  }
+  
+  nav > ul > li {
+      display: table-cell;
+      text-align: center;
+      text-decoration: black;
+  }
+  
+  nav > ul > li > a {
+    display: block;
+    text-align: center;  
+    text-decoration: black;
+  }
+  
+  header > ol > li > a {
+    text-align: center;
+    text-decoration: black;
+  }
+  /* Section Styles */
+  
+  section {
+      clear: right;
+  }
+  
+  /* Definition List Styles */
+  address{
+      text-align: center;
+  }
+footer {
+    text-align: right;
+    text-shadow: darkslategray 4px 6px 5px;
+}
+/*figure box*/
+figure{
+    margin: 20px auto 0px;
+    width: 25%;
+}
+figure img {
+    display: block;
+    width: 300;
+    height: 300;  
+}
+figure figcaption {
+    background-color: darkcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    padding: 10px 0;
+    text-align: center;
+}
+aside img {
+  clear: left;
+  float: left;
+}
+/* Flex Layout Styles */
+/*M5LO5 Demonstrate the use of flexboxes on a web page
+M5LO7 Demonstrate use of properties of flexbox containers
+M5LO6 Demonstrate use of properties of flexbox items*/
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+article {
+    -webkit-flex: 180px; 
+    flex: 180px;
+  }
+/* Mobile Devices: 0 - 480 pixels */
+@media only screen and (max-width: 480px) {
+    img.panel {
+      width: 100%;
+    }
+    nav.horizontal{
+        -webkit-order: 99;
+        order: 99;
+      }
+      body>footer {
+        -webkit-order: 100;
+        order: 100;
+      }
+    }
+/* Tablet and Desktop Devices: Greater than 480 pixels */
+@media only screen and (min-width: 481px) {
+    nav.horizontal ul {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row;
+      flex-flow: row;
+      height: 40px;
+    }
+    nav.horizontal li {
+        -webkit-flex: auto;
+        flex: auto;
+      }
+    }    
