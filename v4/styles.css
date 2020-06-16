@@ -1,6 +1,6 @@
 /*
    Author: Jewelianna Henson
-   Date: 05.28.20 
+   Date: 06.15.20 
    Filename: styles.css
 */
 html{
@@ -97,9 +97,6 @@ aside img {
   float: left;
 }
 /* Flex Layout Styles */
-/*M5LO5 Demonstrate the use of flexboxes on a web page
-M5LO7 Demonstrate use of properties of flexbox containers
-M5LO6 Demonstrate use of properties of flexbox items*/
 body {
     display: flex;
     flex-direction: column;
