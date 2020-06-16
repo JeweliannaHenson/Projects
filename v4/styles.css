@@ -1,113 +1,110 @@
 /*
    Author: Jewelianna Henson
-   Date: 06.15.20 
+   Date: 05.01.20 
    Filename: styles.css
+   M3LO1 Demonstrate the use of a CSS reset style sheet
 */
 html{
-    background-color: rgb (70, 130, 180);
-    background-color: darkcyan;
-  }
-  body{
-      text-align: center;
-      background-color: honeydew;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font-size: medium;
-      border-radius: 20px;
-  }
-  header{
-      text-align: center;
-      background-color:darkcyan;
-      font-size: larger; 
-      padding: background-image ;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb (70, 130, 180);
+  background-color: darkcyan;
+}
+body{
+    text-align: center;
+    background-color: honeydew;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    /*M4LO3 Demonstrate the use of rounded corners for borders*/
+    border-radius: 20px;
+}
+header{
+    text-align: center;
+    background-color:darkcyan;
+    font-size: larger; 
+    padding: background-image ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-  }
-  p{
-    margin: 0em;
-    padding: 5px 25px 25px 25px;
-  }
-  body > p {
-    text-align: left;
-    font-size: 1.1em;
-    text-decoration: black;
-  }
-  /* Navigation List Styles */
-  nav {
-    display: table;
-    width: 100%;
+}
+p{
+  margin: 0em;
+  padding: 5px 25px 25px 25px;
+}
+body > p {
+  text-align: left;
+  font-size: 1.1em;
+  text-decoration: black;
+}
+/* Navigation List Styles */
+nav {
+  display: table;
+  width: 100%;
+  text-align: center;
+  text-decoration: black;
+}
+
+nav > ul {
+  display: table-row;
+  text-align: center;
+  text-decoration: black;
+}
+
+nav > ul > li {
+    display: table-cell;
     text-align: center;
     text-decoration: black;
-  }
-  
-  nav > ul {
-    display: table-row;
+}
+
+nav > ul > li > a {
+  display: block;
+  text-align: center;  
+  text-decoration: black;
+}
+
+header > ol > li > a {
+  text-align: center;
+  text-decoration: black;
+}
+/* Section Styles */
+
+section {
+    clear: right;
+}
+
+/* Definition List Styles */
+dl {
+    /*M3LO2 Demonstrate Floating Elements*/
+    float: right;
+    width: 40%;
+    margin: 0 0 0 4%;
+}
+address{
     text-align: center;
-    text-decoration: black;
-  }
-  
-  nav > ul > li {
-      display: table-cell;
-      text-align: center;
-      text-decoration: black;
-  }
-  
-  nav > ul > li > a {
-    display: block;
-    text-align: center;  
-    text-decoration: black;
-  }
-  
-  header > ol > li > a {
-    text-align: center;
-    text-decoration: black;
-  }
-  /* Section Styles */
-  
-  section {
-      clear: right;
-  }
-  
-  /* Definition List Styles */
-  address{
-      text-align: center;
-  }
+}
 footer {
-    text-align: right;
-    text-shadow: darkslategray 4px 6px 5px;
+  text-align: right;
+  /*M4LO5 Demonstrate the use of text shadowing*/
+  text-shadow: darkslategray 4px 6px 5px;
 }
 /*figure box*/
+/*M4LO1 Demonstrate the use of figure boxes*/
 figure{
-    margin: 20px auto 0px;
-    width: 25%;
+  margin: 20px auto 0px;
+  width: 25%;
 }
 figure img {
-    display: block;
-    width: 300;
-    height: 300;  
+  display: block;
+  width: 300;
+  height: 300;  
 }
 figure figcaption {
-    background-color: darkcyan;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: normal;
-    padding: 10px 0;
-    text-align: center;
+  background-color: darkcyan;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  padding: 10px 0;
+  text-align: center;
 }
 aside img {
-  clear: left;
-  float: left;
+/*M3LO2 Demonstrate floating elements 
+  M3LO3 Demonstrate a clearing floats*/
+clear: left;
+float: left;
 }
-/* Flex Layout Styles */
-body {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap-reverse;
-    text-align: center;
-}
-article {
-    -webkit-flex: 180px; 
-    flex: 180px;
-  }
-    nav.horizontal li {
-        -webkit-flex: auto;
-        flex: auto;
-      }  
